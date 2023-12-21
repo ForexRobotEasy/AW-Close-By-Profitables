@@ -1,0 +1,133 @@
+
+// Program: AW Close By Profitables
+// Developer: Forex Robot Easy Team
+// Developer's Site: forexroboteasy.com
+
+// Function to identify the most unprofitable position
+void identifyUnprofitablePosition()
+{
+   // Implementation logic for identifying the most unprofitable position
+   // ...
+   // ...
+}
+
+// Function to analyze profitable positions and determine the ones that can cover the loss
+void analyzeProfitablePositions()
+{
+   // Implementation logic for analyzing profitable positions
+   // ...
+   // ...
+}
+
+// Function to automatically close unprofitable order using profit from selected positions
+void closeUnprofitableOrder()
+{
+   // Implementation logic for closing unprofitable order
+   // ...
+   // ...
+}
+
+// Trading function to execute buy/sell orders
+void executeOrder()
+{
+   // Implementation logic for executing buy/sell orders
+   // ...
+   // ...
+}
+
+// Function to handle multiple positions and analyze their profitability
+void handleMultiplePositions()
+{
+   // Implementation logic for handling multiple positions
+   // ...
+   // ...
+}
+
+// Main function to implement the trading algorithm
+int OnInit()
+{
+   // Call functions to identify unprofitable positions, analyze profitable positions,
+   // close unprofitable order, and handle multiple positions
+   identifyUnprofitablePosition();
+   analyzeProfitablePositions();
+   closeUnprofitableOrder();
+   handleMultiplePositions();
+   
+   // Start executing buy/sell orders
+   executeOrder();
+   
+   // Return initialization result
+   return(INIT_SUCCEEDED);
+}
+
+// Function to handle deinitialization of the program
+void OnDeinit(const int reason)
+{
+   // Cleanup resources and perform necessary tasks for deinitialization
+   // ...
+   // ...
+}
+
+// Function to handle trading events
+void OnTick()
+{
+   // Implementation logic for handling trading events
+   // ...
+   // ...
+}
+
+// Function to handle trade requests
+void OnTrade()
+{
+   // Implementation logic for handling trade requests
+   // ...
+   // ...
+}
+
+// Function to handle chart events
+void OnChartEvent(const int id, const long &lparam, const double &dparam, const string &sparam)
+{
+   // Implementation logic for handling chart events
+   // ...
+   // ...
+}
+
+// Function to handle timer events
+void OnTimer()
+{
+   // Implementation logic for handling timer events
+   // ...
+   // ...
+}
+
+// Function to handle custom events
+void OnCustomEvent(const int id, const long &lparam, const double &dparam, const string &sparam)
+{
+   // Implementation logic for handling custom events
+   // ...
+   // ...
+}
+
+// Entry point of the program
+void OnStart()
+{
+   // Implementation logic for the main program
+   // ...
+   // ...
+}
+
+// Entry point of the program
+void OnTimer()
+{
+   // Implementation logic for the main program
+   // ...
+   // ...
+}
+
+// Entry point of the program
+void OnCustomEvent(const int id, const long &lparam, const double &dparam, const string &sparam)
+{
+   // Implementation logic for the main program
+   // ...
+   // ...
+}
